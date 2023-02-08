@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is a Registration Form</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                /* background: cyan; */
+            }
+            .main_body{
+                border:2px solid black;
+                border-radius: 10px;
+                height:100vh;
+                width: 500px;
+                margin: 0 auto;
+                /* background-color: gainsboro; */
+            }
+            .main_body h1{
+                font-size: 48px;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+            .logo img{
+                display: block;
+                margin: 0 auto;
+                padding-bottom: 30px;
+            }
+            .form_div{
+                padding: 0px 10px;
+            }
+            label{
+                font-size: 20px;
+            }
+            input{
+                width: 98%;
+                height: 30px;
+                margin-top: 5px;
+            }
+            .box{
+                padding: 5px 0px;
+            }
+            .btn{
+                height: 50px;
+                width: 100px;
+                color: black;
+                background-color: aqua;
+                font-size: 20px;
+                border: none;
+                border-radius: 5px;
+                margin: 20px 0px;
+                margin-left: 40%;
+            }
+            .btn:hover{
+                cursor: pointer;
+            }
+            .list_element{
+                display: flex;
+                justify-content: space-around;
+                margin-top:40px;
+            }
+            li{
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                text-align: center;
+                color: black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section class="main_body">
+            <h1>User Log In</h1>
+            <div class="logo">
+                <img src="../img/logo.jfif" alt="">
+            </div>
+            <form action="">
+            <!-- First Name -->
+                <div class="form_div">
+                    <div class="box">
+                        <label>
+                        User ID
+                        </label><br>
+                        <input type="text" placeholder="User ID">
+                    </div>
+                </div>
+             <!-- Password  Name -->
+                <div class="form_div">
+                        <div class="box">
+                            <label>
+                             Password
+                            </label><br>
+                            <input type="password" placeholder="Enter your Password">
+                        </div>
+                </div>
+            <!-- Button -->
+            <button class="btn">Log In</button>
+                <ul >
+                    <div class="list_element">
+                        <li> <a href="">Forget Password?</a> </li>
+                        <li> <a href="">Already log In?</a> </li>
+                    </div>
+                </ul>
+            </form>
+
+        </section>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is a Registration Form</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                /* background: cyan; */
+            }
+            .main_body{
+                border:2px solid black;
+                border-radius: 10px;
+                height:auto;
+                width: 500px;
+                margin: 0 auto;
+                /* background-color: gainsboro; */
+            }
+            .main_body h1{
+                font-size: 48px;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+            .logo img{
+                display: block;
+                margin: 0 auto;
+                padding-bottom: 30px;
+            }
+            .form_div{
+                padding: 0px 10px;
+            }
+            label{
+                font-size: 20px;
+            }
+            input{
+                width: 98%;
+                height: 30px;
+                margin-top: 5px;
+            }
+            .box{
+                padding: 5px 0px;
+            }
+            .btn{
+                height: 50px;
+                width: 100px;
+                color: black;
+                background-color: aqua;
+                font-size: 20px;
+                border: none;
+                border-radius: 5px;
+                margin: 20px 0px;
+                margin-left: 40%;
+            }
+            .btn:hover{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="main_body">
+            <h1>Register  Form</h1>
+            <div class="logo">
+                <img src="../img/logo.jfif" alt="">
+            </div>
+            <!-- First Name -->
+            <form action="">
+                <div class="form_div">
+                    <div class="box">
+                        <label>
+                        First Name
+                        </label><br>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                </div>
+            <!-- Last  Name -->
+                <div class="form_div">
+                    <div class="box">
+                        <label>
+                        Last Name
+                        </label><br>
+                        <input type="text" placeholder="Enter your last name">
+                    </div>
+                </div>
+            <!-- Date of Birth  Name -->
+                <div class="form_div">
+                    <div class="box">
+                        <label >
+                        Date of Birth
+                        </label><br>
+                        <input type="date" placeholder="Enter your name">
+                    </div>
+                </div>
+            <!-- Date of Birth  Name -->
+                <div class="form_div">
+                    <div class="box">
+                        <label >
+                        Email
+                        </label><br>
+                        <input type="email" placeholder="Enter your Email Name">
+                    </div>
+                </div>
+             <!-- Password  Name -->
+                <div class="form_div">
+                    <div class="box">
+                        <label>
+                        Password
+                        </label><br>
+                        <input type="password" placeholder="Enter your Password">
+                    </div>
+                </div>
+              <!-- Confirm Password  Name -->
+                <div class="form_div">
+                    <div class="box">
+                        <label>
+                        Confirm Password
+                        </label><br>
+                        <input type="password" placeholder="Confirm Password">
+                    </div>
+                </div>
+         </form>
+            <!-- Button -->
+
+            <button class="btn">Register</button>
+        </section>
+    </body>
+</html>
